@@ -16,7 +16,7 @@
       <th><span><%= book.body %></span></th>
       <th><%= link_to "show", book_path(book.id) %>
           <%= link_to "edit", edit_book_path(book.id) %>
-          <%= link_to "destroy", book_path(book.id), method: :delete, "data-confirm" => "Are you sure？" %>
+          <%= link_to "Destroy", book_path(book.id), method: :delete, "data-confirm" => "Are you sure？" %>
       </th>
     </tr>
     <%end%>
